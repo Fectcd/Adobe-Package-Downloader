@@ -1,8 +1,14 @@
-# Adobe-Package-Downloader
+# 🎨 Adobe Package Generator
+
+<div align="center">
+
+[English](#-adobe-package-generator) | [中文版本](#-adobe-软件包下载工具)
+
+</div>
 
 A Python script for downloading Adobe software packages across different platforms (Windows x64, Windows ARM64, and macOS).
 
-## Credits
+## 👋 Credits
 As far as I know, this script was started by the user "ayyybe" on github gist.
 Here are the links to the used sources:
 * https://gist.github.com/ayyybe/a5f01c6f40020f9a7bc4939beeb2df1d
@@ -11,7 +17,7 @@ This script was modified from the original macOS version. It now supports Window
 
 The script and README were written with assistance from Claude.
 
-## Features
+## ✨ Features
 
 - Support for multiple platforms:
   - Windows ARM64 (Windows 11 ARM)
@@ -23,7 +29,7 @@ The script and README were written with assistance from Claude.
 - Multiple language support
 - Command-line interface support
 
-## Prerequisites
+## 📋 Prerequisites
 
 - Python 3.7+
 - Required Python packages:
@@ -31,7 +37,7 @@ The script and README were written with assistance from Claude.
 pip install requests urllib3
 ```
 
-## Usage
+## 🚀 Usage
 
 ### Basic Usage
 
@@ -47,7 +53,7 @@ python adobe_package_generator.py
    - Choose language
    - Select download location
 
-### Command Line Arguments
+### 💻 Command Line Arguments
 
 You can also use command line arguments for automation:
 
@@ -62,7 +68,7 @@ Available arguments:
 - `-l, --installLanguage`: Language code (e.g., en_US)
 - `-d, --destination`: Directory to download installation files to
 
-### Common SAP Codes
+### 🎯 Common SAP Codes
 
 - `PHSP`: Adobe Photoshop
 - `ILST`: Adobe Illustrator
@@ -71,7 +77,7 @@ Available arguments:
 - `LRCC`: Adobe Lightroom
 - `FLPR`: Adobe Animate
 
-## Language Support
+## 🌍 Language Support
 
 Supported language codes include:
 - `en_US`: English (US)
@@ -84,14 +90,14 @@ Supported language codes include:
 - `fr_FR`: French
 And many more...
 
-## Notes
+## 📝 Notes
 
 1. Not all Adobe products are available for all platforms
 2. Some older versions might not be available for certain platforms
 3. Downloaded packages will be organized in folders by product
 4. The script automatically generates a driver.xml file for installation
 
-## Troubleshooting
+## ⚠️ Troubleshooting
 
 ### SSL Certificate Issues
 If you encounter SSL certificate errors, the script automatically handles them. However, this is not recommended for production use.
@@ -99,29 +105,35 @@ If you encounter SSL certificate errors, the script automatically handles them. 
 ### Download Interruptions
 The script includes resume capability. If a download is interrupted, simply run the script again with the same parameters.
 
-## Disclaimer
+## ⚖️ Disclaimer
 
 This tool is for educational purposes only. Make sure you have the right to download and use Adobe software packages.
 
-## Contributing
+## 🤝 Contributing
 
 Feel free to open issues or submit pull requests for improvements.
 
-## License
+## 📄 License
 
 MIT License
 
-## Support
+## 💡 Support
 
 If you encounter any problems or have suggestions, please open an issue on GitHub.
 
 ---
 
-# Adobe 软件包下载工具
+<div align="center">
+
+# 🎨 Adobe 软件包下载工具
+
+[English](#-adobe-package-generator) | [中文版本](#-adobe-软件包下载工具)
+
+</div>
 
 一个用于下载 Adobe 软件包的 Python 脚本，支持不同平台（Windows x64、Windows ARM64 和 macOS）。
 
-## 致谢
+## 👋 致谢
 据我所知，这个脚本最初由 GitHub 用户 "ayyybe" 在 gist 上创建。
 以下是原始源码链接：
 * https://gist.github.com/ayyybe/a5f01c6f40020f9a7bc4939beeb2df1d
@@ -130,7 +142,7 @@ If you encounter any problems or have suggestions, please open an issue on GitHu
 
 脚本和 README 在 Claude 的协助下编写完成。
 
-## 主要特性
+## ✨ 主要特性
 
 - 支持多个平台：
   - Windows ARM64 (Windows 11 ARM)
@@ -142,7 +154,7 @@ If you encounter any problems or have suggestions, please open an issue on GitHu
 - 多语言支持
 - 命令行界面支持
 
-## 运行环境要求
+## 📋 运行环境要求
 
 - Python 3.7+
 - 需要安装的 Python 包：
@@ -150,7 +162,7 @@ If you encounter any problems or have suggestions, please open an issue on GitHu
 pip install requests urllib3
 ```
 
-## 使用方法
+## 🚀 使用方法
 
 ### 基本用法
 
@@ -166,7 +178,7 @@ python adobe_package_generator.py
    - 选择语言
    - 选择下载位置
 
-### 命令行参数
+### 💻 命令行参数
 
 也可以使用命令行参数来自动化操作：
 
@@ -181,7 +193,7 @@ python adobe_package_generator.py -p winarm64 -s PHSP -v 25.0 -l en_US -d /downl
 - `-l, --installLanguage`：语言代码（如 zh_CN）
 - `-d, --destination`：下载文件保存目录
 
-### 常用 SAP 代码
+### 🎯 常用 SAP 代码
 
 - `PHSP`：Adobe Photoshop
 - `ILST`：Adobe Illustrator
@@ -190,7 +202,7 @@ python adobe_package_generator.py -p winarm64 -s PHSP -v 25.0 -l en_US -d /downl
 - `LRCC`：Adobe Lightroom
 - `FLPR`：Adobe Animate
 
-## 支持的语言
+## 🌍 支持的语言
 
 支持的语言代码包括：
 - `en_US`：英语（美国）
@@ -203,14 +215,14 @@ python adobe_package_generator.py -p winarm64 -s PHSP -v 25.0 -l en_US -d /downl
 - `fr_FR`：法语
 等等...
 
-## 注意事项
+## 📝 注意事项
 
 1. 并非所有 Adobe 产品都支持所有平台
 2. 某些旧版本可能不支持特定平台
 3. 下载的文件会按产品分文件夹存放
 4. 脚本会自动生成用于安装的 driver.xml 文件
 
-## 故障排除
+## ⚠️ 故障排除
 
 ### SSL 证书问题
 如果遇到 SSL 证书错误，脚本会自动处理。但这种处理方式不建议在生产环境中使用。
@@ -218,18 +230,18 @@ python adobe_package_generator.py -p winarm64 -s PHSP -v 25.0 -l en_US -d /downl
 ### 下载中断
 脚本支持断点续传。如果下载中断，只需使用相同参数重新运行脚本即可。
 
-## 免责声明
+## ⚖️ 免责声明
 
 此工具仅用于教育目的。请确保您有权下载和使用 Adobe 软件包。
 
-## 贡献
+## 🤝 贡献
 
 欢迎提出问题或提交改进建议。
 
-## 许可证
+## 📄 许可证
 
 MIT 许可证
 
-## 支持
+## 💡 支持
 
 如果遇到问题或有建议，请在 GitHub 上提出 issue。
